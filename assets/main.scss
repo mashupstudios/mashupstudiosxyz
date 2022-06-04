@@ -1,0 +1,21 @@
+---
+---
+
+@import "minima";
+
+body {
+  color: #ccc;
+  background-color: #101010;
+}
+
+.site-header .site-title {
+  color: #eee;
+}
+.site-header .page-link {
+  color: #ccc;
+}
+
+a:hover {
+  color: #aae;
+  text-decoration: none;
+}
