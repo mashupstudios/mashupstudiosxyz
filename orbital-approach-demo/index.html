@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>OrbitalApproach</title>
+    <script src="./polyfills.js"></script>
+  </head>
+  <body style="text-align: center; background-color: #231F20; height: 100%; width: 100%;">
+    <canvas id="unity-canvas" style="margin: auto; height: 750px; width: 1200px; background: #231F20"></canvas>
+    <p style="color: #efefef; text-align: center; margin: 5px 0 0 0; line-height: 1em;">HOW TO PLAY: Drag the rocket to shoot. Press "R" to restart. Enable "Use hardware acceleration when available" in Settings if Chrome is running slow. &copy; 2022 Mashup Studios.</p>
+    <script src="Build/WebGL.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/WebGL.data",
+        frameworkUrl: "Build/WebGL.framework.js",
+        codeUrl: "Build/WebGL.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "MashupStudios",
+        productName: "OrbitalApproach",
+        productVersion: "1.0",
+      })
+      .then((instance) =>
+      {
+        unityInstance = instance;
+      })
+      .catch((message) => { console.warn(message); });
+    </script>
+  </body>
+</html>

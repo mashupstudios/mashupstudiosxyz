@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "778879779784",
+    "firebase_url": "https://orbital-approach-default-rtdb.firebaseio.com",
+    "project_id": "orbital-approach",
+    "storage_bucket": "orbital-approach.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778879779784:android:bdacbef59166a3a33ff6fd",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.KevinSpaceProgram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778879779784-1sbnlee94vl0rl0f2qegrdb3m8jd3g81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_DRisBhyzpyq-enUIO9DBRe65kMjxL00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778879779784-1sbnlee94vl0rl0f2qegrdb3m8jd3g81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
