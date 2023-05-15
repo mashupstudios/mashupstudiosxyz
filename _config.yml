@@ -31,8 +31,6 @@ github_username:  mashupstudios
 theme: minima
 plugins:
   - jekyll-feed
- 
- gems:
   - jekyll-redirect-from
 
 # Exclude from processing.
